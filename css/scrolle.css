@@ -1,0 +1,83 @@
+.imageSideScroller{
+			margin:0;
+			position: relative;
+		}
+		.myslides{
+			display:flex;
+			transform: 0.2s;
+			align-items: flex-end;
+		}
+		.scroller_image{
+			width:100%;
+			height:400px;
+		}
+		.scroller_badge{
+			position: absolute;
+			height: 38px;
+			width: 100%;
+			float: left;
+			margin-top: -40px;
+			text-align: center;
+			transform: translate(0%, 0%);
+		}
+		.leftsidekey, .rightsidekey{
+			cursor: pointer;
+			background-color: gray;
+			position: absolute;
+			width: 60px;
+			height:70px;
+			padding: 0px;
+			opacity: 0.4;
+
+		}
+	    .leftsidekey:hover,.rightsidekey:hover{
+	    opacity:0.9;
+	    }
+		.rightsidekey{
+			right:10px;
+			border-radius: 0px 10px 10px 0px;
+			
+		}
+		.leftsidekey{
+			margin-left:10px;
+			border-radius: 10px 0px 0px 10px;
+		}
+		.Imageselect{
+			border-radius: 10px;
+			height: 10px;
+			color: #bbb;
+			opacity: unset;
+		}
+		.dot_white{
+			background-color: white;
+		}
+		.ImagesScroll{
+			width: 100%;
+			height: 350px;
+			background-color:#35424a;
+		}
+		.myimages{
+			width: 400px;
+			height: 330px;
+			float: left;
+			padding: 10px;
+			margin-top:10px;
+		}
+		.slider_badge{
+			//position: absolute;
+			height: 38px;
+			width: 100%;
+			float: left;
+			margin-top: -40px;
+			text-align: center;
+			transform: translate(0%, 0%);
+
+		}
+		.slideStartStop{
+			background-color: gray;
+			border-radius: 5px;
+			opacity: 0.7;
+			border:  solid gray 2px;
+			cursor: pointer;
+			border-color: gray solid 1px;
+		}

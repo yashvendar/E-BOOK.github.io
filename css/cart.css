@@ -1,0 +1,31 @@
+.cart{
+    margin-bottom:8px;
+    margin-left:7%;
+    margin-right:2%;
+    
+}
+.sidebar{
+                
+                opacity:0.9;
+                
+                width:60px;
+                position:fixed;
+                top:30%;
+                background-color:gray;
+                right:-50px;
+                padding:5px;
+                border:solid rgba(74,99,97,0.4);
+                border-radius:15px 5px 5px 15px;
+                transition:1s;
+                transform: translate(0%, 0%);
+                z-index:1;
+            }
+            .sidebar img{
+                border-radius:22px;
+                opacity:1.0 !important;
+                text-decoration:none;
+                margin-bottom:20px;
+            }
+            .sidebar:hover{
+                right:0px;
+            }
